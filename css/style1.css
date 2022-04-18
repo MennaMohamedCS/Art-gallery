@@ -1,0 +1,136 @@
+body{       
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+/*************************************************************************/ 
+/*************************************************************************/
+@media (min-width: 992px) {
+    .container-head{
+        display: grid;
+        grid-template-columns: repeat(3,auto);
+        grid-template-rows: 40vw;
+    }
+    .col-1{
+        position: relative;
+        background-color: black;
+    }
+    .col-2{
+        position: relative;
+        background-image: url("../images/Gallery of Hoki Museum _ Nikken Sekkei  - 19.jpg");
+    }
+    .col-3{
+        position: relative;
+        background-color: white;
+    }
+    .logo{
+        position: absolute; 
+       
+    	background: linear-gradient(to right, white 60%, black 40%);
+	    -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        left: 340px;
+        top: 180px;
+    }
+    .article{
+        position: absolute;
+        left: 60%;
+        top: 180px;
+        width: 18%;
+        color: rgb(54, 53, 53);
+    }
+
+    .btn-text {
+        position: absolute;
+        left: 60%;
+        top: 55%;
+        width: 150px;
+        height: 50px;
+        background-color: rgb(54, 53, 53);
+        color: white;
+        padding-left: 5px;
+    }
+    .btn{
+        width: 33px;
+        height: 50px;
+        display: inline;
+        color: white;
+        background-color: rgb(232, 146, 84);
+        
+    }
+}
+/*************************************************************************/ 
+/*************************************************************************/
+    .container-main{
+        margin: 7%;
+    }
+    .row{
+        display: grid;
+        grid-template-columns: 40% 60%;
+        grid-template-rows: 300px;
+    }
+    .img-para{
+        width: 100%;
+        height: 300px;
+    }
+
+    .paragragh{
+        padding: 22px 20px 22px 0px ;
+        margin: 5px 10px 5px 0px;
+    }
+
+    .para{
+        padding: 4%;
+    }
+    .row2{
+        display: grid;
+        grid-template-columns: 60% 40%;
+        grid-template-rows: 500px;
+        margin-top: 20px;
+        grid-gap: 20px;
+    }
+    .img-para2{
+        width: 100%;
+        height: 500px;
+    }
+    .img-para3{
+        width: 100%;
+        height: 250px;
+    }
+    .para2{
+        padding: 22px 20px  ;
+        margin: 1px ;
+        background-color: black;
+        color: white;
+        height: 195px;
+    }
+  
+
+    /*************************************************************************/
+    /*************************************************************************/
+    
+footer{
+    background-color: black;
+    color: white;
+;
+    bottom: 0;
+}
+.container-footer{
+    display: grid;
+    grid-template-columns: repeat(3,33.3%); 
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+.logo-footer{
+   padding-left: 30%;
+}
+.social-media{
+    display: grid;
+    grid-template-columns: repeat(3,33.3%);
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 5%;
+}
+
+.social-img{
+    height: 2vw;
+}

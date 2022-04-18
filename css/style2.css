@@ -1,0 +1,59 @@
+   @media (min-width: 768px) and (max-width: 991px) {
+    .container-head{
+        display: grid;
+        grid-template-columns: 0 repeat(2,auto);
+        grid-template-rows: 70vw;
+    }
+    .col-2{
+        position: relative;
+        background-image: url("../images/Gallery of Hoki Museum _ Nikken Sekkei  - 19.jpg");
+    }
+    .col-3{
+        position: relative;
+        background-color: white;
+    }
+    .logo{
+        position: absolute; 
+       color: black;
+        left: 420px;
+        top: 100px;
+    }
+    .article{
+        position: absolute;
+        left: 420px;
+        top: 250px;
+        width: 25%;
+        font-size: larger;
+        color: rgb(54, 53, 53);
+    }
+
+    .btn-text {
+        position: absolute;
+        left: 420px;
+        top: 500px;
+        width: 180px;
+        height: 60px;
+        background-color: rgb(54, 53, 53);
+        color: white;
+        padding-left: 20px;
+
+    }
+    .btn{
+        width: 63px;
+        height: 60px;
+        display: inline;
+        color: white;
+        background-color: rgb(232, 146, 84);
+        
+    }
+
+      /*************************************************************************/
+  }
+
+
+
+
+
+  
+
+  

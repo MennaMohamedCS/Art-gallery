@@ -1,5 +1,10 @@
-# Art-gallery
-Art gallery website
-using: HTML and CSS
-'media query in css'
-Responsive Web design
+# Art-gallery-website
+# Responsive Web design by Media Queries
+
+## Technologies:
+```
+HTML
+CSS 
+```
+
+
